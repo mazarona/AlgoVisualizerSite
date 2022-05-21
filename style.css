@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.number-of-swaps {
+  color: white;
+}
+.root {
+  height: 50%;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.child {
+  /* height: 0;
+  width: 0;
+  left: 0px;
+  bottom: 0;*/
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+}
