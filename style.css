@@ -12,21 +12,41 @@ p {
   margin: 0;
   padding: 0;
 }
-.number-of-swaps {
-  color: white;
-}
 .root {
   height: 50%;
+  width: 100%;
+  background-color: brown;
+  border: solid 3px;
+  border-color: gold;
+}
+.all-buttons {
+  text-align: center;
+  height: 10%;
+}
+.speed {
+  text-align: center;
+}
+.details {
+  text-align: center;
+  height: 15%;
+}
+.disblay {
+  height: 60%;
   width: 100%;
   background-color: black;
   position: relative;
 }
+.array-content {
+  text-align: center;
+  min-height: 15%;
+  height: fit-content;
+  background-color: black;
+}
+
 .child {
-  /* height: 0;
-  width: 0;
-  left: 0px;
-  bottom: 0;*/
   bottom: 0;
   position: absolute;
   background-color: white;
+  text-align: center;
+  overflow: hidden;
 }
