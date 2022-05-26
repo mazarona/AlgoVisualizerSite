@@ -8,45 +8,42 @@ body {
   padding: 0;
 }
 p {
-  color: white;
   margin: 0;
   padding: 0;
 }
 .root {
-  height: 50%;
+  height: 100%;
   width: 100%;
-  background-color: brown;
-  border: solid 3px;
-  border-color: gold;
+  color: rgb(214, 195, 84);
+  background-color: #1b1a17;
+  box-sizing: border-box;
+  border: 5px solid #b89459;
 }
 .all-buttons {
+  box-sizing: border-box;
   text-align: center;
-  height: 10%;
+  min-height: 5%;
+  padding: 7px;
 }
 .speed {
   text-align: center;
+  min-height: 5%;
 }
 .details {
   text-align: center;
-  height: 15%;
+  min-height: 10%;
 }
 .disblay {
-  height: 60%;
+  box-sizing: border-box;
+  min-height: 80%;
   width: 100%;
-  background-color: black;
+  background-color: #1b1a17;
+  border-top: 2px solid #b89459;
   position: relative;
-}
-.array-content {
-  text-align: center;
-  min-height: 15%;
-  height: fit-content;
-  background-color: black;
 }
 
 .child {
   bottom: 0;
   position: absolute;
   background-color: white;
-  text-align: center;
-  overflow: hidden;
 }
