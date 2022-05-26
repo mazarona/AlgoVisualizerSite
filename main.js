@@ -1,5 +1,3 @@
-import "./style.css";
-
 var arrSize = 50;
 var maxRange = 100;
 
